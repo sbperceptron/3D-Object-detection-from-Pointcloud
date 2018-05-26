@@ -11,10 +11,20 @@
 The project is being developed and tested on ubuntu 14.04
 
 # instructions to run the code:
-# 1. open a terminal
-# 2. switch to tensorflow back end
-source ~/tensorflow/bin/activate (assuming the virtual environment name of the tensorflow is "tensorflow")
-# 3. cd <package_location>
-# 4. run the following command for testing the algorithm based on trained weights
+# 1. open a new terminal and run,
+roscore
+# 2. open a new terminal
+source ~/tensorflow/bin/activate
+(assuming the virtual environment name of the tensorflow is "tensorflow")
+
+cd <package_location>
+(the location where the object detction package is located)
+# before running the following change the pcd_path variable in test.py to the location of test data
 python test.py
+
+# 3. open a new terminal and run the publisher,
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map velodyne 10
+# 4. open a new terminal and run rviz to visualise the test results,
+rosrun rviz rviz
+
 
