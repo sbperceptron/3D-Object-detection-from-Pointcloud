@@ -1,4 +1,4 @@
-# 3D-Object-detction-from-Pointcloud
+# 3D-Object-detction-from-Pointcloud based on VOTE3DEEP method
 
 # required packages
 1. python 2.7
