@@ -16,12 +16,6 @@ Platform: ubuntu 14.04
 # working:
 1. single class object detction using 3 3D_CNN layers using the grid method from vote3deep
 
-# future direction:
-1. multi class object detection.
-2. improving detection performance
-3. Realtime object detction and terrain detection 
-4. developing dataset specific to mine environment
-
 
 # instructions to run the code:
 # 1. open a new terminal and run,
