@@ -1,4 +1,4 @@
-# 3D-Object-detction-from-Pointcloud
+# 3D-Object-detction-from-Pointcloud-tf
 
 # required packages
 1. python 2.7
