@@ -18,7 +18,7 @@ source ~/tensorflow/bin/activate
 (assuming the virtual environment name of the tensorflow is "tensorflow")
 
 cd <package_location>
-(the location where the object detction package is located)
+(the location where the object detection package is located)
 # before running the following change the pcd_path variable in test.py to the location of test data
 python test.py
 
