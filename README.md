@@ -1,4 +1,4 @@
-# 3D-Object-detction-from-Pointcloud based on VOTE3DEEP method
+# 3D-Object-detction-from-Pointcloud
 
 # required packages
 1. python 2.7
@@ -12,14 +12,26 @@ The project is under development
 
 Platform: ubuntu 14.04
 
+# current capabilities:
+1. single class object detction using 3 3D_CNN layers using the grid method from vote3deep
+
+# future direction:
+1. multi class object detection.
+2. improving detection performance
+3. Realtime object detction and terrain detection 
+4. developing dataset specific to mine environment
+
+
 # instructions to run the code:
 # 1. open a new terminal and run,
 roscore
 # 2. open a new terminal
 source ~/tensorflow/bin/activate
+
 (assuming the virtual environment name of the tensorflow is "tensorflow")
 
 cd <package_location>
+
 (the location where the object detection package is located)
 # before running the following change the pcd_path variable in test.py to the location of test data
 python test.py
