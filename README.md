@@ -8,7 +8,8 @@
 5. tensorflow (virtual environment)
 
 # Note:
-The project is being developed and tested on ubuntu 14.04
+The project is under development
+Platform: ubuntu 14.04
 
 # instructions to run the code:
 # 1. open a new terminal and run,
