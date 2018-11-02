@@ -1,6 +1,6 @@
 # 3D-Object-detction-from-Pointcloud-tf
 
-# required packages
+# Required packages
 1. python 2.7
 2. NVIDIA-CUDA package
 3. ROS
@@ -37,7 +37,7 @@ The architecture of the neural network essentially consists of 3 3D Sparse CNN (
 2. Cyclists:    SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
 3. pedestrians: SparseCNN-->Relu-->SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
 
-# references 
+# References 
 1. Vote3Deep:  Fast  Object  Detection  in  3D  Point  Clouds  Using  Efficient
 Convolutional  Neural  Networks  https://arxiv.org/pdf/1609.06666.pdf
 2. 3D  Fully  Convolutional  Network  for  Vehicle  Detection  in  Point  Cloud https://arxiv.org/pdf/1611.08069.pdf
