@@ -12,7 +12,10 @@ Platform: ubuntu 14.04
 
 
 # Description:
-The architecture of the neural network essentially consists of 3 3D Sparse CNN (convolutional neural network) layers and one receptive field layer. The neural network is trained for detection on primarily three classes of objects namely persons, cars, and cyclist. KITTI vision benchmark suite velodyne point cloud dataset is used as the training and testing dataset for the 3D object detection. The dataset consists of thousands of point cloud frames which are 3D annotated with the object locations. The point cloud data from the dataset have on average 100k points per frame of the point cloud. The dataset constitutes a total of 7481 frames, 80 percent of the frames are used to train the network and 20 percent are used for testing.
+Ideology:
+Pointcloud sensor data from Light based sensors are very sparse by nature. By exploiting this inherent sparsity property of point cloud data, we can efficiently process large amounts of pointcloud data for object detction in a fraction of time.   
+
+The architecture of the neural network essentially consists of 3D Sparse CNN (convolutional neural network) layers, Relu and Fully Connected layer. The neural network is trained for detection on primarily three classes of objects namely persons, cars, and cyclist. KITTI vision benchmark suite velodyne point cloud dataset is used as the training and testing dataset for the 3D object detection. The dataset consists of thousands of point cloud frames which are 3D annotated with the object locations. The point cloud data from the dataset have on average 100k points per frame of the point cloud. The dataset constitutes a total of 7481 frames, 80 percent of the frames are used to train the network and 20 percent are used for testing.
 
 # Achievements:
 1. The hyper parameter tuning of the model is complete and it is observed that the model started to converge.
