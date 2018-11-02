@@ -2,11 +2,8 @@
 
 # required packages
 1. python 2.7
-2. point cloud libraray
-3. NVIDIA-CUDA package
-4. ROS
-5. tensorflow (virtual environment)
-
+2. NVIDIA-CUDA package
+3. ROS
 
 # Note:
 The project is under development
@@ -25,20 +22,20 @@ The architecture of the neural network essentially consists of 3 3D Sparse CNN (
 2. Multi class object detction using single model
 
 # Hyper parameters:
-Number of epochs: 100
-Batch size =16
-Learning rate=0.001
-L2 weight decay=0.0001
-momentum=0.9
-optimizer= SGD
+1. Number of epochs: 100
+2. Batch size =16
+3. Learning rate=0.001
+4. L2 weight decay=0.0001
+5. momentum=0.9
+6. optimizer= SGD
 
 # Computational Performance
-Average time/epoch: 5 hrs
+1. Average time/epoch: 5 hrs
 
 # Models:
-Cars:        SparseCNN-->Relu-->FullyConnected
-Cyclists:    SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
-pedestrians: SparseCNN-->Relu-->SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
+1. Cars:        SparseCNN-->Relu-->FullyConnected
+2. Cyclists:    SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
+3. pedestrians: SparseCNN-->Relu-->SparseCNN-->Relu-->SparseCNN-->Relu-->FullyConnected
 
 # references 
 1. Vote3Deep:  Fast  Object  Detection  in  3D  Point  Clouds  Using  Efficient
